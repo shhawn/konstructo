@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1200px) {
+
+    main {
+        padding: 0 3%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    /* slider */
+    .slider_opa {
+        align-items: center;
+        text-align: center;
+    }
+
+    .slider_opa h2 {
+        font-size: 3.5rem;
+        padding: 0;
+    }
+
+    .slider_opa p {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    /* main */
+    main {
+        padding: 5% 8%;
+    }
+    
+    .col_article {
+        width: 100%;
+    }
+
+    .col_sub {
+        width: 100%;
+    }
+
+    /* col_article */
+    .article_imgbox {
+        width: 50%;
+    }
+
+    .article_text p {
+        font-size: 1.05rem;
+    }
+
+    /* col_sub */
+    .about_me p {
+        font-size: 1.3rem;
+    }
+
+    .follow_box {
+        width: 18%;
+    }
+
+    .follow_box a {
+        padding: 20px 0;
+        font-size: 22px;
+    }
+
+    .categories li {
+        font-size: 1.25rem;
+        line-height: 40px;
+        letter-spacing: 0.5px;
+    }
+
+    .categories li a {
+        width: 100%;
+    }
+
+    .banner {
+        padding: 7% 10%;
+    }
+
+    .banner p {
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 3% 0 6%;
+    }
+
+    .banner button {
+        width: 250px;
+    }
+
+    .popular {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .popular_profile {
+        width: 50%;
+    }
+
+    .profile_txt {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .profile_txt p {
+        font-size: 1.10rem;
+        padding: 0 0 2% 0;
+    }
+
+    .profile_txt span {
+        font-size: 0.95rem;
+    }
+
+    .popular_profile:last-child {
+        margin: 0 0 18px 0;
+    }
+
+    .tags li a {
+        font-size: 1.10rem;
+        padding: 6px 12px;
+    }
+
+    .archive li {
+        font-size: 1.10rem;
+    }
+
+    .instagram {
+        height: auto;
+    }
+
+    .instagram a {
+        height: 25vw;
+    }
+
+    .pages {
+        margin: 15% auto 25px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* slider */
+    .slider_opa {
+        padding: 0 5%;
+    }
+
+    .slider_opa h2 {
+        font-size: 2.5rem;
+        padding: 0;
+    }
+
+    .slider_opa p {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    /* main */
+    main {
+        padding: 3% 6%;
+    }
+
+    /* col_article */
+    
+    .article_text {
+        padding: 30px 20px;
+    }
+    
+    .article_text span {
+        line-height: 2;
+    }
+    
+    .article_text h2 {
+        line-height: 1.3;
+    }
+    
+    .article_text p {
+        line-height: 1.8;
+    }
+    
+    .article_imgbox {
+        width: 100%;
+    }
+
+    .article_txtbox {
+        padding: 2% 7% 8%;
+        font-size: 1.3rem;
+    }
+
+    .article_sub button {
+        font-size: 0.85rem;
+    }
+
+    .categories li {
+        font-size: 1.15rem;
+        line-height: 36px;
+    }
+
+    .banner {
+        padding: 7% 10%;
+    }
+
+    .banner p {
+        font-size: 1.4rem;
+        line-height: 1.5;
+        padding: 3% 0 6%;
+    }
+
+    .banner button {
+        width: 80%;
+    }
+
+    /* col_sub */
+    .about_me p {
+        font-size: 1.1rem;
+    }
+
+    .popular_profile {
+        width: 100%;
+    }
+
+    .tags li a {
+        font-size: 0.95rem;
+        padding: 4px 10px;
+    }
+
+    .pages {
+        width: 60%;
+        min-width: 270px;
+    }
+
+}
+
+/* 상단 nav hover */
+@media screen and (min-width: 992px) {
+    
+    .nav ul li:nth-child(6) a:hover {
+        border-bottom: 1px solid #fff;
+    }
+
+}

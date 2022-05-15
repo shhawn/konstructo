@@ -1,0 +1,368 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1200px) {
+    
+    /* what we do */
+    #what {
+        padding: 130px 20px 50px;
+    }
+
+    /* why choose us */
+    .cho_content {
+        padding: 0 20px;
+    }
+
+    /* featured project */
+    .feature_100 {
+        padding: 0 20px;
+    }
+
+    /* team */
+    #team {
+        padding: 130px 20px 0;
+    }
+
+    .team_text .seperate_line {
+        margin: 20px 0 10%;
+    }
+
+    .team_text .team_icon {
+        margin-top: 20%;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    /* WHAT WE DO */
+    section {
+        padding: 70px 35px;
+    }
+
+    .title {
+        top: 90px;
+    }
+
+    .sec_what {
+        padding-bottom: 100px;
+    }
+
+    #what {
+        padding: 100px 0 50px;
+    }
+
+    #what_figure {
+        flex-wrap: wrap;
+    }
+
+    .figure_box {
+        width: 50%;
+    }
+
+    /* WHY CHOOSE US */
+    #choose {
+        height: 600px;
+    }
+
+    .cho_content {
+        padding: 0 100px;
+    }
+
+    .left_box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right_box {
+        width: 33.3%;
+        margin: 100px 0 0 0;
+    }
+
+    .cho_content > div:nth-child(2) {
+        margin-left: 0;
+    }
+
+    /* FEATURED PROJECT */
+    .sec_fea {
+        padding: 100px 0;
+    }
+
+    .feature_100 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feature {
+        padding-top: 60px;
+    }
+
+    .fea_box {
+        width: 46%;
+        margin: 2%;
+    }
+
+    .bot_line {
+        padding-bottom: 60px;
+    }
+
+    /* PROJECT */
+    .sec_project {
+        padding: 130px 0 20px;
+    }
+
+    .project_top {
+        padding: 20px 0 60px;
+    }
+
+    .project_top p {
+        width: 80%;
+    }
+
+    .project_mid ul {
+        width: 100%;
+    }
+
+    .project_mid li {
+        margin: 0 2%;
+    }
+
+    /* TEAM */
+    #team {
+        padding-top: 100px;
+    }
+
+    .team_box {
+        width: 100%;
+    }
+
+    .team_text .seperate_line {
+        margin: 20px 0 40px;
+    }
+
+    .team_text .team_icon {
+        margin-top: 50px;
+    }
+
+    /* grade */
+    .sec_grade {
+        padding: 80px 0;
+    }
+
+    #grade {
+        padding: 0 60px;
+    }
+
+    /* contact */
+    #contact {
+        justify-content: space-between;
+        padding: 0 100px;
+    }
+
+    .contact_box {
+        width: auto;
+    }
+
+    /* modal */
+    .projModal img {
+        width: 80%;
+    }
+
+    .projModal button {
+        top: 5%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* slider */
+    .slider_txt h1 {
+        font-size: 30px;
+    }
+
+    /* WHAT WE DO */
+    section {
+        padding: 40px 20px;
+    }
+
+    .title {
+        width: 100%;
+        top: 80px;
+    }
+
+    .sec_what {
+        padding-bottom: 20px;
+    }
+
+    #what {
+        padding: 100px 0 0;
+        flex-wrap: wrap;
+    }
+
+    .what_box {
+        width: 100%;
+        max-width: none;
+        margin: 0 0 45px 0;
+    }
+
+    .what_box:nth-child(2) {
+        margin: 0 0 45px 0;
+    }
+
+    .what_box span {
+        margin-top: 45px;
+    }
+
+    #what_figure {
+        flex-wrap: wrap;
+    }
+
+    .figure_box {
+        width: 100%;
+        padding: 35px 0px;
+    }
+
+    /* WHY CHOOSE US */
+    #choose {
+        height: 800px;
+    }
+
+    .cho_content {
+        padding: 0 20px;
+    }
+
+    .left_box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right_box {
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .cho_content > div:nth-child(2) {
+        margin-left: 0;
+    }
+
+    /* FEATURED PROJECT */
+    .sec_fea {
+        padding: 60px 0 30px;
+    }
+
+    .feature_100 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feature {
+        padding-top: 60px;
+    }
+
+    .fea_box {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .bot_line {
+        padding-bottom: 30px;
+    }
+
+    /* PROJECT */
+    .sec_project {
+        padding: 130px 0 0;
+    }
+
+    .project_top p {
+        width: 80%;
+    }
+
+    .project_mid ul {
+        width: 100%;
+    }
+
+    .project_mid li {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .project_mid li a {
+        display: block;
+        line-height: 40px;
+        border-bottom: 2px solid #d4d4d4;
+    }
+
+    .project_mid li:not(:first-child) a:hover {
+        border-bottom: 2px solid #000;
+    }
+    
+    .project_mid li:first-child a {
+        border-bottom: 2px solid #000;
+    }
+
+    .project_bot ul {
+        columns: 1;
+    }
+
+    .project_textbox { 
+        font-size: 18px;
+    }
+
+    /* TEAM */
+    #team {
+        padding-top: 100px;
+    }
+
+    .team_box {
+        width: 100%;
+        margin: 0;
+    }
+
+    .team_text {
+        width: 100%;
+        padding: 0;
+        margin: 0 0 30px 0;
+    }
+
+    .team_imgbox {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    /* grade */
+    .sec_grade {
+        padding: 60px 0;
+    }
+
+    .sec_team {
+        padding-bottom: 30px;
+    }
+
+    #grade {
+        padding: 0 20px;
+    }
+
+    .grade_box {
+        width: 100%;
+    }
+
+    #grade .grade_box:nth-child(2) {
+        padding: 50px 32px;
+    }
+
+    /* contact */
+    #contact {
+        justify-content: space-between;
+        padding: 0 100px;
+        flex-wrap: wrap;
+    }
+
+    .contact_box {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+}
+
